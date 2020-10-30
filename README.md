@@ -1,3 +1,3 @@
 # Caption-Generation-using-IBM-Watson
 
-![](Flow Diagram/Node Red Flow.png)
+![](Flow%20Diagram/Node%20Red%20Flow.png)
