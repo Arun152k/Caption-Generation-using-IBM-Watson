@@ -29,6 +29,16 @@ The functions of each node is given below:
 
 * Play Audio: The message prepared by the Text_to_Speech node would be played as an audio output by the help of this node.
 
+The Homepage of the application is shown below:
 
+![](Home%20page%20and%20Output/Home%20page.png)
 
+The image to be recognised is uploaded by clicking the Submit Button. 
+The Ouput after uploading the image is shown below: 
 
+![](Home%20page%20and%20Output/Ouput.png)
+
+The recognised classes are displayed under "The Recognised Objects" Table along with their respective probability score. The suitable caption is also generated in the end (In this instance, it displays "alabaster color Taj Mahal" as the generated caption). Further, all the classes present under "The Recognised Objects" Table are given as audio ouput (In this instance, the audio output would be, "Taj Mahal, building, memorial, alabaster color").
+
+Note:
+We have attempted this project with very limited amount of JavaScript knowledge. We have utilized codes available in the internet and made necessary changes to them, to suit our purpose. Regardless, our knowledge on JavaScript has imporved. 
