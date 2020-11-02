@@ -1,3 +1,4 @@
+// This node function identifies the dominant colour and class present in the Image and generates a suitable caption for the Image.
 if (typeof msg.result == 'undefined') {
     return " ";
 }
