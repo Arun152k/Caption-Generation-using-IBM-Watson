@@ -8,3 +8,27 @@ We have implemented a modest Caption Generator using the servics offered by IBM 
 The Node-Red flow is displayed below.
 
 ![](Flow%20Diagram/Node%20Red%20Flow.png)
+
+The functions of each node is given below:
+ 
+* Homepage Template: This template node serves as the home page of our application. It is where the image to be recognised is given as intput. Once the objects in the image are recognised by the Watson Visual Recognition Service, the recognised objects are displayed along with their probability score.
+
+* Visual Recognition: This node allows us to utilise the IBM Watson's Visual Recognition Service to recognise objects in an image. 
+
+* Recognising Elements: This function node filters/extracts the necessary information provided by the Visual Recognition node, and returns this information to the Homepage Template.
+
+* Watson Recognition: This function node identifies the dominant colour and dominant object/class present in the input image using the information given by the Visual Recognition node.
+
+* Watson_Recognition Template: This template node displays the information (dominant colour and dominant object/class present in the input image) as identified by the Watson Recognition function node 
+
+* Feeding to Speech:  This function node filters/extracts the necessary information provided by the Visual Recognition node, and returns this information to the Text_to_Speech Template.
+
+* Text_to_Speech Template: This template prepares the message to be sent to the Text to Speech Service.
+
+* Text to Speech: This node allows us to utilise the IBM Watson's Text to Speech Service.
+
+* Play Audio: The message prepared by the Text_to_Speech node would be played as an audio output by the help of this node.
+
+
+
+
