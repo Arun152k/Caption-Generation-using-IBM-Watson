@@ -51,7 +51,6 @@ for ( c_id=0; c_id < (msg.result.images[0].classifiers.length); c_id++ ){
     } else {
        item = msg.result.images[0].classifiers[c_id].classes[bestItem].class;
     }
-//    say = say + " Watson's " + msg.result.images[0].classifiers[c_id].name + " classifier thinks this picture contains a " + item +".";
     say = say + " Watson thinks this picture contains a " + item +".";
 }
 msg.payload =  say;
