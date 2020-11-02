@@ -118,19 +118,14 @@ var x="";
     function getdata(data)
 	{
 		 var html = '';
-		 var classes='';
-            if(data != 0)
+            	if(data != 0)
 			{
 				$.each(data, function(i){
 				var row = data[i];
 				console.log(row);
 				if(row.score>0.6) //Accepts any Class with Probability score greater than 0.6 (Minimum Threshold).
 				{
-			
-		
-				    classes +=row.class;
-	                classes+=', '
-				    html += '<tr>';
+				html += '<tr>';
     				html += '<td>';
     				html +=  row.class;
     				html += '</td>';
@@ -143,8 +138,7 @@ var x="";
 			}
 			else
 				{
-		            html+="<div>No Data</div>";
-	      		    classes+= "<div>No Data</div>"; 
+		            html+="<div>No Data</div>"; 
 				}
 			$('#scoretable').html(html);
 	}
