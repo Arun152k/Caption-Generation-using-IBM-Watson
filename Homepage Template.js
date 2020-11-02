@@ -118,7 +118,7 @@ var x="";
     function getdata(data)
 	{
 		 var html = '';
-            	if(data != 0)
+            	 if(data != 0)
 			{
 				$.each(data, function(i){
 				var row = data[i];
