@@ -22,12 +22,6 @@ function getdata(data)
 				}
 			});
 			}
-			else
-				{
-				   // html+="<div>No Data</div>";
-				 //   classes+= "<div>No Data</div>";
-				}
-			
 	}
     (function(scope) {
         scope.$watch('msg.payload', function(data) {
