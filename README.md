@@ -41,5 +41,6 @@ The Ouput after uploading the image is shown below:
 
 The recognised classes are displayed under "The Recognised Objects" Table along with their respective probability score. The suitable caption is also generated in the end (In this instance, it displays "alabaster color Taj Mahal" as the generated caption). Further, all the classes present under "The Recognised Objects" Table are given as audio ouput (In this instance, the audio output would be, "Taj Mahal, building, memorial, alabaster color").
 
-Note:
+###Note:
+
 We have attempted this project with very limited amount of JavaScript knowledge. We have utilized codes available in the internet and made necessary changes to them, to suit our purpose. Regardless, our knowledge on JavaScript has imporved. 
