@@ -1,1 +1,1 @@
-&lt;div ng-bind-html=&quot;msg.payload&quot;&gt;&lt;/div&gt;
+<div ng-bind-html="msg.payload"></div>
