@@ -43,4 +43,4 @@ The recognised classes are displayed under "The Recognised Objects" Table along 
 
 ### Note:
 
-We have attempted this project with very limited amount of JavaScript knowledge. We have utilized codes available in the internet and made necessary changes to them, to suit our purpose. Regardless, our knowledge on JavaScript has imporved. 
+We have attempted this project with very limited amount of JavaScript knowledge. We have utilized codes available in the internet and made necessary changes to them, to suit our purpose. Regardless, we have learnt something new. 
