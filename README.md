@@ -1,7 +1,7 @@
 # Caption-Generation-using-IBM-Watson
 
 ## Introduction:
-We have implemented a modest Caption Generator using the servics offered by IBM Watson. The project is deployed in Node-RED (An application for API Integration). The application accepts an image from the user, which is then fed into the Watson Visual Recognition Service (A service offered by IBM Watson to analyze images for scenes, objects, faces, colour and other content using Deep Learning). The necessary information is extracted from the ouptut provided by the Visual Recognition Service, and a suitable caption is generated using the most prominent colour and object present in the image as identified by the Visual Recognition System. We have also displayed the objects/colour identified by the Visual Recognition Service (with a probability score greater than a particular threshold), this information is also fed to the Watson Text to Speech Service, which delivers the audio output.
+We have implemented a modest Caption Generator using the services offered by IBM Watson. The project is deployed in Node-RED (An application for API Integration). The application accepts an image from the user, which is then fed into the Watson Visual Recognition Service (A service offered by IBM Watson to analyze images for scenes, objects, faces, colour and other content using Deep Learning). The necessary information is extracted from the output provided by the Visual Recognition Service, and a suitable caption is generated using the most prominent colour and object present in the image as identified by the Visual Recognition System. We have also displayed the objects/colour identified by the Visual Recognition Service (with a probability score greater than a particular threshold), this information is also fed to the Watson Text to Speech Service, which delivers the audio output.
 
 ## Project Flow and Explanation: 
 
@@ -9,9 +9,9 @@ The Node-Red flow is displayed below.
 
 ![](Flow%20Diagram/Node%20Red%20Flow.png)
 
-The functions of each node is given below:
+The functions of each node are given below:
  
-* Homepage Template: This template node serves as the home page of our application. It is where the image to be recognised is given as intput. Once the objects in the image are recognised by the Watson Visual Recognition Service, the recognised objects are displayed along with their probability score.
+* Homepage Template: This template node serves as the home page of our application. It is where the image to be recognised is given as input. Once the objects in the image are recognised by the Watson Visual Recognition Service, the recognised objects are displayed along with their probability score.
 
 * Visual Recognition: This node allows us to utilise the IBM Watson's Visual Recognition Service to recognise objects in an image. 
 
@@ -35,12 +35,14 @@ The Homepage of the application is shown below:
 ![](Home%20page%20and%20Output/Home%20page.png)
 
 The image to be recognised is uploaded by clicking the Submit Button. 
-The Ouput after uploading the image is shown below: 
+The Output after uploading the image is shown below: 
 
 ![](Home%20page%20and%20Output/Ouput.png)
 
-The recognised classes are displayed under "The Recognised Objects" Table along with their respective probability score. The suitable caption is also generated in the end (In this instance, it displays "alabaster color Taj Mahal" as the generated caption). Further, all the classes present under "The Recognised Objects" Table are given as audio ouput (In this instance, the audio output would be, "Taj Mahal, building, memorial, alabaster color").
+The recognised classes are displayed under "The Recognised Objects" Table along with their respective probability score. The suitable caption is also generated in the end (In this instance, it displays "alabaster colour Taj Mahal" as the generated caption). Further, all the classes present under "The Recognised Objects" Table are given as audio output (In this instance, the audio output would be, "Taj Mahal, building, memorial, alabaster colour").
 
 ### Note:
 
-We have attempted this project with very limited amount of prior, HTML, CSS, Bootstrap and JavaScript knowledge. We have utilized codes available in the internet and made necessary changes to them, to suit our purpose. Regardless, we have learnt something new. 
+We have attempted this project with very limited amount of prior, HTML, CSS, Bootstrap and JavaScript knowledge. We have utilized codes available on the internet and made necessary changes to them, to suit our purpose. Regardless, we have learnt something new. 
+
+
